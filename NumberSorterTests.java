@@ -3,7 +3,14 @@ import org.junit.*;
 import java.util.*;
 import java.util.ArrayList;
 
+public class NumberSorterTest {
 
+    @Test
+    public void checkSize() {
+        // Arrange
+        ArrayList<Integer> numbersList = new ArrayList<>(Arrays.asList(5, 2, 8, 11, 6));
+        NumberSorter numberSorter = new NumberSorter(numbersList);
+ 
 public class ListExamplesTests {
 	@Test(timeout = 500)
 	public void testMerge1() {
