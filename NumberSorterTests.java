@@ -8,9 +8,9 @@ public class NumberSorterTests {
 	public void testEven() {
         	ArrayList<Integer> list = new ArrayList<>(Arrays.asList(5, 2, 8, 11, 6));
 		
-        	ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(2, 8, 6));
+        	int[] expected = new ArrayList<>(Arrays.asList(2, 8, 6));
 		
-		assertArrayEquals(expected, EvenSorter.Even(list);
+		assertArrayEquals(expected, EvenSorter.Even(list));
 	}
 	@Test
 	public void testEvenCount() {
@@ -18,7 +18,7 @@ public class NumberSorterTests {
 		
         	int expected = 3;
 		
-		assertEquals(expected, EvenSorter.evenCount(list);
+		assertEquals(expected, EvenSorter.evenCount(list));
 	}
 
 
