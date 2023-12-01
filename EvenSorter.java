@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class NumberSorter {
+public class EvenSorter {
     private ArrayList<Integer> numbers;
 
-    public NumberSorter(ArrayList<Integer> numbers) {
+    public EvenSorter(ArrayList<Integer> numbers) {
         this.numbers = numbers;
     }
 
@@ -28,3 +28,4 @@ public class NumberSorter {
         }
         return oddNumbers;
     }
+    
