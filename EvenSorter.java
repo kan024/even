@@ -30,4 +30,6 @@ public class EvenSorter {
     }
     public int evenCount(){
         return numbers.length();
+    }
+}
     
