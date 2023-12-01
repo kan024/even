@@ -28,4 +28,6 @@ public class EvenSorter {
         }
         return oddNumbers;
     }
+    public int evenCount(){
+        return numbers.length();
     
