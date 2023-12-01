@@ -18,7 +18,7 @@ public class NumberSorterTests {
 		
         	int expected = 3;
 		
-		assertArrayEquals(expected, EvenSorter.evenCount(list);
+		assertEquals(expected, EvenSorter.evenCount(list);
 	}
 
 
