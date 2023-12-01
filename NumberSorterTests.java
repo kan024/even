@@ -3,7 +3,7 @@ import org.junit.*;
 import java.util.*;
 import java.util.ArrayList;
 
-public class NumberSorterTest {
+public class NumberSorterTests {
 
     @Test
     public void evenCountTest() {
