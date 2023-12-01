@@ -21,7 +21,7 @@ public class EvenSorter {
 
 
     static int evenCount(){
-        return numbers.length();
+        return numbers.size();
     }
 }
     
