@@ -7,9 +7,11 @@ public class NumberSorterTest {
 
     @Test
     public void checkSize() {
-        // Arrange
-        ArrayList<Integer> numbersList = new ArrayList<>(Arrays.asList(5, 2, 8, 11, 6));
+        // this method checks the number of even numbers in the array
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(5, 2, 8, 11, 6));
         NumberSorter numberSorter = new NumberSorter(numbersList);
+	int expected = 
+	assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
  
 public class ListExamplesTests {
 	@Test(timeout = 500)
