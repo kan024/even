@@ -13,7 +13,7 @@ public class NumberSorterTest {
 	int expected = numberSorter.Even().length();
 	int result = numberSorter.evenCount();
 	assertArrayEquals(expected, result);
-	    
+    }
 @Test
     public void evenArrayTest() {
         // this method checks the number of even numbers in the array
@@ -24,4 +24,5 @@ public class NumberSorterTest {
 	int result = numberSorter.Even();
 	assertArrayEquals(expected, result);
  
+}
 }
